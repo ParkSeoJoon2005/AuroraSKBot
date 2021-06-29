@@ -419,7 +419,7 @@ def DaisyX_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [MaxRobot](https://github.com/sltechworld/MaxRobot) + [Naruto](https://github.com/sltechworld/narutorobot)."
+            f"\n\nBased on [MaxRobot](https://github.com/sltechworld/Max-Robot)."
             f"\n\n{dispatcher.bot.first_name}'s source code was written by SupunMax"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
