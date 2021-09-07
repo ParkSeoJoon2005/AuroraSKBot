@@ -100,7 +100,7 @@ HELP_STRINGS = f"""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-You can donate to the original writer's of the Base code,
+You can help to the original writer's of the Base code,
 Support them  [SupunMax](t.me/maxsupun1), [SL_Tech_World](https://t.me/SL_Tech_Worldchat),"""
 
 IMPORTED = {}
