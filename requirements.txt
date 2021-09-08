@@ -54,4 +54,4 @@ google-api-python-client
 wget
 fake-useragent
 asyncio
-cv2-tools
+opencv-python-headless
