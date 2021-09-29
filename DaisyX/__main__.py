@@ -214,8 +214,10 @@ def start(update: Update, context: CallbackContext):
                 IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
 
         else:
-            update.effective_message.reply_text(
-                PM_START_TEXT,
+            update.effective_user.first_name
+            update.effective_message.reply_photo(
+                MaxRobot,
+                caption=PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
@@ -353,6 +355,7 @@ def help_button(update, context):
         else:
             query.message.edit_text(excp.message)
             LOGGER.exception("Exception in help buttons. %s", str(query.data))
+
 
 
 @run_async
