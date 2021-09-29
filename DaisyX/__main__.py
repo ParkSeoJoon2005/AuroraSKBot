@@ -247,7 +247,7 @@ def error_handler(update, context):
         "<pre>update = {}</pre>\n\n"
         "<pre>{}</pre>"
     ).format(
-        html.escape(json.dumps(update.to_dict (https://github.com/TeamDaisyX/Daisy-OLD/blob/5901234d7b3876327d8504272d61a7edfaedde51/DaisyX/modules/sql/global_bans_sql.py#L22)(), indent=2, ensure_ascii=False)),
+        html.escape(json.dumps(update.to_dict(), indent=2, ensure_ascii=False)),
         html.escape(tb),
     )
 
