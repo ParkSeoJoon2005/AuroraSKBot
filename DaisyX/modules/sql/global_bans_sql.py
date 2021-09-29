@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 
-from DaisyX.modules.sql import BASE, SESSION
+from AnkiVector.modules.sql import BASE, SESSION
 
 
 class GloballyBannedUsers(BASE):
@@ -19,7 +19,7 @@ class GloballyBannedUsers(BASE):
     def __repr__(self):
         return "<GBanned User {} ({})>".format(self.name, self.user_id)
 
-       def to_dict(self):
+    def to_dict(self):
         return {"user_id": self.user_id, "name": self.name, "reason": self.reason}
 
 
