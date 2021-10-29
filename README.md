@@ -1,15 +1,6 @@
 
 
-# 🔥Max-Robot Based on Python Telegram Bot
-## 🔥Newest version of @DaisyXBot
-#🔥 with advanced for all fetures
-
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/parkseojoon2005/Max-Robot.git)
-
-
-##🔥 New version Avaiilable on Telegram as [@MaxRobot](https://t.me/daisyxbot)
-## 🔥 Max-Robot is the latest
-
 
 
 
