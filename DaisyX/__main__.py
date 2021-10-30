@@ -63,23 +63,21 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [Max Robot](https://telegra.ph/file/18db78aca96c01c79b27b.jpg)
-
-I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
-
+ʜᴏʟᴀ,ɪ'ᴍ ᴀᴜʀᴏʀᴀ[🚀](https://telegra.ph/file/5ffa1e00ea56f73173388.jpg)
+ɪ'ᴍ ᴀɴ ᴀꜱᴛʀᴏɴᴏᴍʏ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴘᴏᴡᴇʀꜰᴜʟ ᴛᴏᴏʟꜱ
 ✪ Make sure you read *INFO* Section Below ✪ 
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="🚀ɪɴꜰᴏ", callback_data="aboutmanu_"),
     ],
     [
-        InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
+        InlineKeyboardButton(text="❓ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add Max Robot to your group 💫", url="t.me/MaxRobot?startgroup=true"
+            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ☂️", url="t.me/Auroraskbot?startgroup=true"
         ),
     ],
 ]
@@ -362,11 +360,11 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by SL_Tech_World.* "
-            f"\n\n 🔥 Join [SL_Tech_World](https://t.me/SL_Tech_Worldchat) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by *Park* "
+            f"\n\n 🔥 Join [Andromeda Telescopes](https://t.me/Andromeda_Telescopes) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/18db78aca96c01c79b27b.jpg)"
-            f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [🚀](https://telegra.ph/file/d61e8780d881c6f11bff3.jpg)"
+            f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -384,7 +382,7 @@ def DaisyX_about_callback(update, context):
                             text="❔Help & Commands", callback_data="help_back"
                         )
                     ],
-                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
+                    [InlineKeyboardButton(text="🔙Back", callback_data="aboutmanu_back")],
                 ]
             ),
         )
@@ -414,7 +412,7 @@ def DaisyX_about_callback(update, context):
                             text="Anti Spam", callback_data="aboutmanu_spamprot"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_")],
+                    [InlineKeyboardButton(text="🔙Back", callback_data="aboutmanu_")],
                 ]
             ),
         )
@@ -427,7 +425,7 @@ def DaisyX_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_tac")]]
+                [[InlineKeyboardButton(text="🔙Back", callback_data="aboutmanu_tac")]]
             ),
         )
 
@@ -442,7 +440,7 @@ def DaisyX_about_callback(update, context):
             f"\n\nThe message very clearly says that you need these rights - <i>not {dispatcher.bot.first_name}.</i>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto")]]
+                [[InlineKeyboardButton(text="🔙Back", callback_data="aboutmanu_howto")]]
             ),
         )
     elif query.data == "aboutmanu_spamprot":
@@ -492,9 +490,9 @@ def DaisyX_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Credits", callback_data="aboutmanu_credit"
+                            text="🤗Credits", callback_data="aboutmanu_credit"
                         ),
-                        InlineKeyboardButton(text="Back", callback_data="aboutmanu_"),
+                        InlineKeyboardButton(text="🔙Back", callback_data="aboutmanu_"),
                     ]
                 ]
             ),
@@ -517,7 +515,7 @@ def get_help(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Help",
+                                text="⚽Help",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -533,13 +531,13 @@ def get_help(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help",
+                            text="⚙️Help",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support Chat",
+                            text="🛠️Support Chat",
                             url="https://t.me/{}".format(SUPPORT_CHAT),
                         )
                     ],
@@ -560,7 +558,7 @@ def get_help(update, context):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="🔙Back", callback_data="help_back")]]
             ),
         )
 
@@ -632,7 +630,7 @@ def settings_button(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Back",
+                                text="🔙Back",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -713,7 +711,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Settings",
+                                text="⚙️Settings",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
