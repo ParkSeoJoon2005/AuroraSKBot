@@ -84,7 +84,7 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/18db78aca96c01c79b27b.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/13c68173c940e4d2e4ce3.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -99,7 +99,8 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can help to the original writer's of the Base code,
-Support them  [SupunMax](t.me/maxsupun1), [SL_Tech_World](https://t.me/SL_Tech_Worldchat),"""
+Support them  [SupunMax](t.me/maxsupun1), [SL_Tech_World](https://t.me/SL_Tech_Worldchat),
+And @DaisyXBOT"""
 
 IMPORTED = {}
 MIGRATEABLE = []
