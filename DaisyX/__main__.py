@@ -364,17 +364,19 @@ def DaisyX_about_callback(update, context):
 
         query.message.edit_text(
 
-            text=f" @Max123robot🇱🇰 - https://telegra.ph/file/d61e8780d881c6f11bff3.jpg A bot to manage your groups with additional features!"
-
-            f"\n\n Here's the basic help regarding use of @Max123robot🇱🇰."
-
-            f"\n\n Almost all modules usage defined in the help menu, checkout by sending `/help`"
-
-            f"\n\n Report error/bugs click the Button ",
+            text=f"ᴛʜᴇ ᴀᴜʀᴏʀᴀ ᴘʀᴏᴊᴇᴄᴛ [ 🌙](https://telegra.ph/file/2d1e74b6cdf64027933c7.jpg)"
+            f"\n\n ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ᴍᴀɪɴ ʙᴏᴛ"
+                  f"\n\n ᴏᴛʜᴇʀ ʙᴏᴛꜱ ᴀʀᴇ"
+                 f"\n\n  •ᴛʜᴇ ᴀꜱᴛʀᴏ ꜱᴏᴜʟ"
+               f"\n\n    •ᴀᴜʀᴏʀᴀ x"
+                f"\n\n    ʙᴇᴛᴛᴇʀ ꜰᴏʀ ʏᴏᴜʀ ᴀꜱᴛʀᴏɴᴏᴍʏ ᴀɴᴅ ꜱᴄɪᴇɴᴄᴇ ɢʀᴏᴜᴘꜱ"
+                f"\n\n    ᴀʟᴍᴏꜱᴛ ᴀʟʟ ᴍᴏᴅᴜʟᴇꜱ ᴜꜱᴀɢᴇ ᴅᴇꜰɪɴᴇᴅ ɪɴ ᴛʜᴇ ʜᴇʟᴘ ᴍᴇɴᴜ "
+               f"\n\n    ᴄʜᴇᴄᴋɪɴɢ ʙʏ ꜱᴇɴᴅɪɴɢ /help"
+               f"\n\n     ʀᴇᴘᴏʀᴛ ᴇʀʀᴏʀ/ʙᴜɢꜱ ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ",
 
             parse_mode=ParseMode.MARKDOWN,
 
-            disable_web_page_preview=True,
+            disable_web_page_preview=False,
 
             reply_markup=InlineKeyboardMarkup(
 
