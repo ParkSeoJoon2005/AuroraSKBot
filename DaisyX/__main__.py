@@ -354,46 +354,86 @@ def help_button(update, context):
             LOGGER.exception("Exception in help buttons. %s", str(query.data))
 
 
-
-
 @run_async
+
 def DaisyX_about_callback(update, context):
+
     query = update.callback_query
+
     if query.data == "aboutmanu_":
+
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by *Park* "
-            f"\n\n 🔥 Join [Andromeda Telescopes](https://t.me/Andromeda_Telescopes) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
-            f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [🚀](https://telegra.ph/file/d61e8780d881c6f11bff3.jpg)"
-            f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons",
+
+            text=f" @Max123robot🇱🇰 - https://telegra.ph/file/d61e8780d881c6f11bff3.jpg A bot to manage your groups with additional features!"
+
+            f"\n\n Here's the basic help regarding use of @Max123robot🇱🇰."
+
+            f"\n\n Almost all modules usage defined in the help menu, checkout by sending `/help`"
+
+            f"\n\n Report error/bugs click the Button ",
+
             parse_mode=ParseMode.MARKDOWN,
+
             disable_web_page_preview=True,
+
             reply_markup=InlineKeyboardMarkup(
+
                 [
+
                     [
+
                         InlineKeyboardButton(
-                            text="How To Use Me", callback_data="aboutmanu_howto"
+
+                            text="Bᴜɢ'ꜱ🐞", url="https://t.me/MaxrobotSupport"
+
                         ),
+
                         InlineKeyboardButton(
-                            text="T & C", callback_data="aboutmanu_tac"
+
+                            text="Updates💁‍♀️", url="https://t.me/MaxRobot_updates"
+
                         ),
+
                     ],
+
                     [
+
                         InlineKeyboardButton(
-                            text="❔Help & Commands", callback_data="help_back"
-                        )
+
+                            text="Donate 🤕", url="http://t.me/Max123robot?start=/donate"
+
+                        ),
+
+                        InlineKeyboardButton(
+
+                            text="Inline search 🔎", switch_inline_query_current_chat=""
+
+                        ),
+
                     ],
-                    [InlineKeyboardButton(text="🔙Back", callback_data="aboutmanu_back")],
+
+                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
+
                 ]
+
             ),
+
         )
+
     elif query.data == "aboutmanu_back":
+
         query.message.edit_text(
-            PM_START_TEXT,
-            reply_markup=InlineKeyboardMarkup(buttons),
-            parse_mode=ParseMode.MARKDOWN,
-            timeout=60,
+
+                PM_START_TEXT,
+
+                reply_markup=InlineKeyboardMarkup(BUTTONS),
+
+                parse_mode=ParseMode.MARKDOWN,
+
+                timeout=60,
+
         )
+        
 
     elif query.data == "aboutmanu_howto":
         query.message.edit_text(
