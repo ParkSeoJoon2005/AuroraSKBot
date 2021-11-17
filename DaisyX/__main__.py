@@ -63,15 +63,23 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-ʜᴏʟᴀ,ɪ'ᴍ ᴀᴜʀᴏʀᴀ[🚀](https://telegra.ph/file/5ffa1e00ea56f73173388.jpg)
+ʜᴏʟᴀ,ɪ'ᴍ ᴀᴜʀᴏʀᴀ[🚀](https://telegra.ph/file/24f53325c73f0ae72223c.jpg)
 ɪ'ᴍ ᴀɴ ᴀꜱᴛʀᴏɴᴏᴍʏ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴘᴏᴡᴇʀꜰᴜʟ ᴛᴏᴏʟꜱ
 ✪ Make sure you read *INFO* Section Below ✪ 
 """
 
 buttons = [
+   [
+       [
+        InlineKeyboardButton(text="🌠ɪɴꜰᴏ", callback_data="aboutmanu_"),
+    
     [
-        InlineKeyboardButton(text="🚀ɪɴꜰᴏ", callback_data="aboutmanu_"),
-    ],
+
+        InlineKeyboardButton(text="🇱🇰ᴘʀᴏᴊᴇᴄᴛ", url="t.me/theauroraproject"),
+        
+        ],
+           
+      ],
     [
         InlineKeyboardButton(text="❓ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
@@ -84,11 +92,11 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/13c68173c940e4d2e4ce3.jpg)
-✪ /start: Starts me! You've probably already used this.
-✪ /help: Click this, I'll let you know about myself!
-✪ /donate: You can support my creater using this command.
-✪ /settings: 
+*Main Commands :* [🌙](https://telegra.ph/file/2618807cd20a13ee84287.jpg)
+◉ /start: Starts me! You've probably already used this.
+◉ /mhelp: Click this,To check music bot!
+◉ /vhelp: You can view my video bot.
+◉ /settings: 
    ◔ in PM: will send you your settings for all supported modules.
    ◔ in a Group: will redirect you to pm, with all that chat's settings.
 """.format(
@@ -847,7 +855,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I am now online!")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Look At The Universe🌙Feel That Smell")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
