@@ -386,13 +386,13 @@ def DaisyX_about_callback(update, context):
 
                         InlineKeyboardButton(
 
-                            text="Bᴜɢ'ꜱ🐞", url="https://t.me/MaxrobotSupport"
+                            text="Bᴜɢ'ꜱ🐞", url="https://t.me/ParkPMBot"
 
                         ),
 
                         InlineKeyboardButton(
 
-                            text="Updates💁‍♀️", url="https://t.me/MaxRobot_updates"
+                            text="Updates💁‍♀️", url="https://t.me/TheAuroraProject"
 
                         ),
 
@@ -402,7 +402,7 @@ def DaisyX_about_callback(update, context):
 
                         InlineKeyboardButton(
 
-                            text="Donate 🤕", url="http://t.me/Max123robot?start=/donate"
+                            text="Donate 🤕", url="http://t.me/Auroraskbot?start=/donate"
 
                         ),
 
@@ -414,7 +414,7 @@ def DaisyX_about_callback(update, context):
 
                     ],
 
-                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
+                    [InlineKeyboardButton(text="🔙Back", callback_data="aboutmanu_back")],
 
                 ]
 
