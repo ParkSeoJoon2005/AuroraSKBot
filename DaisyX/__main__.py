@@ -72,14 +72,14 @@ buttons = [
    [
        [
         InlineKeyboardButton(text="🌠ɪɴꜰᴏ", callback_data="aboutmanu_"),
-    
+     ],
     [
 
         InlineKeyboardButton(text="🇱🇰ᴘʀᴏᴊᴇᴄᴛ", url="t.me/theauroraproject"),
         
         ],
            
-      ],
+     ],
     [
         InlineKeyboardButton(text="❓ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
