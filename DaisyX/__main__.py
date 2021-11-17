@@ -428,7 +428,7 @@ def DaisyX_about_callback(update, context):
 
                 PM_START_TEXT,
 
-                reply_markup=InlineKeyboardMarkup(BUTTONS),
+                reply_markup=InlineKeyboardMarkup(buttons),
 
                 parse_mode=ParseMode.MARKDOWN,
 
