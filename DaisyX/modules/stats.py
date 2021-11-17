@@ -12,7 +12,7 @@ import time
 import psutil
 from pyrogram import filters
 
-from DaisyX import (bot_start_time, DEV_USERS, pbot)
+from DaisyX import (DEV_USERS, pbot)
 from DaisyX.utils import formatter
 
 
@@ -21,7 +21,7 @@ from DaisyX.utils import formatter
 # Stats Module
 
 async def bot_sys_stats():
-    bot_uptime = int(time.time() - bot_start_time)
+    bot_uptime = ANYTIME
     cpu = psutil.cpu_percent()
     mem = psutil.virtual_memory().percent
     disk = psutil.disk_usage("/").percent
@@ -29,7 +29,7 @@ async def bot_sys_stats():
     stats = f"""
 root@DihanOfficial:~$ Sophia
 ------------------
-UPTIME: {formatter.get_readable_time((bot_uptime))}
+UPTIME: ANYTIME
 BOT: {round(process.memory_info()[0] / 1024 ** 2)} MB
 CPU: {cpu}%
 RAM: {mem}%
