@@ -70,23 +70,27 @@ PM_START_TEXT = """
 
 buttons = [
   [
-     [  
-       InlineKeyboardButton(text="🌠ɪɴꜰᴏ", callback_data="aboutmanu_"),
-        ],
+
+        InlineKeyboardButton(text="🌠ɪɴꜰᴏ", callback_data="aboutmanu_"),
+
+    ],
+
     [
 
-        InlineKeyboardButton(text="🇱🇰ᴘʀᴏᴊᴇᴄᴛ", url="t.me/theauroraproject"),
-        
-        ],
-      
-      [
         InlineKeyboardButton(text="❓ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
+
     ],
+
     [
+
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ☂️", url="t.me/Auroraskbot?startgroup=true"
+
+            text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ☂", url="t.me/Auroraskbot?startgroup=true"
+
         ),
+
     ],
+
 ]
 
 
