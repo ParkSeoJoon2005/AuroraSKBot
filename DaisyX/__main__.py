@@ -69,18 +69,39 @@ PM_START_TEXT = """
 """
 
 buttons = [
-    [
-        InlineKeyboardButton(text="🚀ɪɴꜰᴏ", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="ɪɴꜰᴏ🌙", callback_data="aboutmanu_"),
+
     ],
+
     [
-        InlineKeyboardButton(text="❓ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
-    ],
-    [
+
+        InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅꜱ✅", callback_data="source_"),
+
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ☂️", url="t.me/Auroraskbot?startgroup=true"
+
+                  text="System Stats 💻", callback_data="stats_callback"
+
         ),
+
     ],
+
+    [
+
+        InlineKeyboardButton(text="ᴘʀᴏᴊᴇᴄᴛ🇰🇷", url=f"https://t.me/TheAuroraproject"),
+
+        InlineKeyboardButton(text="Support🤗", url=f"https://t.me/Hwarangchat_Offcial"),
+
+    ],
+
+    [
+
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ☂️", url="t.me/Auroraskbot?startgroup=true"),   
+
+    ],
+
 ]
+
+
 
 
 HELP_STRINGS = f"""
@@ -166,7 +187,14 @@ def send_help(chat_id, text, keyboard=None):
         chat_id=chat_id, text=text, parse_mode=ParseMode.MARKDOWN, reply_markup=keyboard
     )
 
+@pbot.on_callback_query(filters.regex("stats_callback"))
 
+async def stats_callbacc(_, CallbackQuery):
+
+    text = await bot_sys_stats()
+
+    await pbot.answer_callback_query(CallbackQuery.id, text, show_alert=True)
+    
 @run_async
 def test(update, context):
     try:
