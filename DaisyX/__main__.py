@@ -304,7 +304,7 @@ def error_callback(update: Update, context: CallbackContext):
         print(error)
         # handle all other telegram related errors
 
- @run_async
+
 
 def DaisyX_about_callback(update, context):
 
