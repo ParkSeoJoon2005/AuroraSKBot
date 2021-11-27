@@ -69,12 +69,19 @@ PM_START_TEXT = """
 """
 
 buttons = [
-  [
+ [
+
+       InlineKeyboardButton(
+
+            text="✔️ᴊᴏɪɴ ᴏᴜʀ ᴄᴏᴍᴍɪᴜɴɪᴛʏ ",  url="t.me/andromedatelescopes" ),
+
+            ],
+    [
 
       
 
    InlineKeyboardButton(text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/Auroraskbot?startgroup=true" ),
-InlineKeyboardButton(text="ᴀɴᴅʀᴏᴍᴇᴅᴀ ᴇʟᴇꜱᴄᴏᴘᴇꜱ", url="t.me/andromedatelescopes" ),
+InlineKeyboardButton(text="ᴀɴᴅʀᴏᴍᴇᴅᴀ ᴛᴇʟᴇꜱᴄᴏᴘᴇꜱ", url="t.me/" ),
             
 
  ],
