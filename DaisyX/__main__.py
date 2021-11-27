@@ -207,7 +207,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="🔙Back", callback_data="help_back")]]
                     ),
                 )
 
@@ -375,15 +375,24 @@ def DaisyX_about_callback(update, context):
 
         query.message.edit_text(
 
-            text=f"ᴛʜᴇ ᴀᴜʀᴏʀᴀ ᴘʀᴏᴊᴇᴄᴛ [ 🌙](https://telegra.ph/file/2d1e74b6cdf64027933c7.jpg)"
-            f"\n\n ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ᴍᴀɪɴ ʙᴏᴛ"
-                  f"\n\n ᴏᴛʜᴇʀ ʙᴏᴛꜱ ᴀʀᴇ"
-                 f"\n\n  •ᴛʜᴇ ᴀꜱᴛʀᴏ ꜱᴏᴜʟ"
-               f"\n\n    •ᴀᴜʀᴏʀᴀ x"
-                f"\n\n    ʙᴇᴛᴛᴇʀ ꜰᴏʀ ʏᴏᴜʀ ᴀꜱᴛʀᴏɴᴏᴍʏ ᴀɴᴅ ꜱᴄɪᴇɴᴄᴇ ɢʀᴏᴜᴘꜱ"
-                f"\n\n    ᴀʟᴍᴏꜱᴛ ᴀʟʟ ᴍᴏᴅᴜʟᴇꜱ ᴜꜱᴀɢᴇ ᴅᴇꜰɪɴᴇᴅ ɪɴ ᴛʜᴇ ʜᴇʟᴘ ᴍᴇɴᴜ "
-               f"\n\n    ᴄʜᴇᴄᴋɪɴɢ ʙʏ ꜱᴇɴᴅɪɴɢ /help"
-               f"\n\n     ʀᴇᴘᴏʀᴛ ᴇʀʀᴏʀ/ʙᴜɢꜱ ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ",
+            text=f"Welcome to **Tԋҽ Aυɾσɾα Pɾσʝҽƈƚ**[ 🌙](https://telegra.ph/file/2d1e74b6cdf64027933c7.jpg)"
+                 f"\n\nThis Project Made For @Andromedatelescope"
+                 f"\n\nWe created 3 Bots to manage your Astronomy And Science" 
+                 f"\n\nGroups.You Can Add it to your group."
+                 f"\n\nOur Bots :@AuroraSKBot "
+                         f"\n\n @Aurorabetabot"
+                          f"\n\n@TheAstroSoulBot"
+                 f"\n\n**For Group Owners And Admins**"
+                 f"\n\nYour Astronomy/Science/Mysteries/Mind/Psychology/"
+                 f"\n\nKorea/Japan and etc.. Groups.I can add members to your" f"\n\ngroup (I will globally broadcast your link)"
+                 f"\n\n***Just Send invite link to @ParkPMBot**"
+                 f"\n\n**If You Send,I will Broadcast**"
+                 f"\n\nGo And Check @TheAuroraProject For More Info"
+                 f"\n\nGood Luck!"
+                
+                 f"\n\nOwners,Devs,Dragons "
+                 f"\n\nThe Aurora Project"
+                 f"\n\nTelegram.",
 
             parse_mode=ParseMode.MARKDOWN,
 
