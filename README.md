@@ -1,6 +1,6 @@
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/parkseojoon2005/Max-Robot.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/parkseojoon2005/Max-Robot/tree/aurora.git)
 
 
 
