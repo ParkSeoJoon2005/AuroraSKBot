@@ -383,7 +383,7 @@ def DaisyX_about_callback(update, context):
                          f" \n\n @Aurorabetabot"
                           f" \n\n@TheAstroSoulBot"
                  f"\n\n **For Group Owners And Admins**"
-                 f"\n\n Your Astronomy/Science/Mysteries/Mind/Psychology/"
+                 f"\n\n Your Astronomy/Science/Mysteries/Mind/Psychology/ "
                  f"\n\n Korea/Japan and etc.. Groups.I can add members to your" f"\n\ngroup (I will globally broadcast your link)"
                  f"\n\n **Just Send invite link to @ParkPMBot**"
                  f"\n\n **If You Send,I will Broadcast**"
