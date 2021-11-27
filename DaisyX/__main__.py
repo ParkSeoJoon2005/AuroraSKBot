@@ -81,7 +81,7 @@ buttons = [
       
 
    InlineKeyboardButton(text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/Auroraskbot?startgroup=true" ),
-InlineKeyboardButton(text="ᴀɴᴅʀᴏᴍᴇᴅᴀ ᴛᴇʟᴇꜱᴄᴏᴘᴇꜱ", url="t.me/" ),
+InlineKeyboardButton(text="🔭ᴀɴᴅʀᴏᴍᴇᴅᴀ ᴛᴇʟᴇꜱᴄᴏᴘᴇꜱ", url="t.me/andromedatelescopes" ),
             
 
  ],
