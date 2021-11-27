@@ -376,23 +376,23 @@ def DaisyX_about_callback(update, context):
         query.message.edit_text(
 
             text=f"Welcome to **Tԋҽ Aυɾσɾα Pɾσʝҽƈƚ**[ 🌙](https://telegra.ph/file/2d1e74b6cdf64027933c7.jpg)"
-                 f"\n\nThis Project Made For @Andromedatelescope"
-                 f"\n\nWe created 3 Bots to manage your Astronomy And Science" 
-                 f"\n\nGroups.You Can Add it to your group."
-                 f"\n\nOur Bots :@AuroraSKBot "
-                         f"\n\n @Aurorabetabot"
-                          f"\n\n@TheAstroSoulBot"
-                 f"\n\n**For Group Owners And Admins**"
-                 f"\n\nYour Astronomy/Science/Mysteries/Mind/Psychology/"
-                 f"\n\nKorea/Japan and etc.. Groups.I can add members to your" f"\n\ngroup (I will globally broadcast your link)"
-                 f"\n\n***Just Send invite link to @ParkPMBot**"
-                 f"\n\n**If You Send,I will Broadcast**"
-                 f"\n\nGo And Check @TheAuroraProject For More Info"
-                 f"\n\nGood Luck!"
+                 f"\n\n This Project Made For @Andromedatelescope"
+                 f"\n\n We created 3 Bots to manage your Astronomy And Science" 
+                 f"\n\n Groups.You Can Add it to your group."
+                 f"\n\n Our Bots :@AuroraSKBot "
+                         f" \n\n @Aurorabetabot"
+                          f" \n\n@TheAstroSoulBot"
+                 f"\n\n **For Group Owners And Admins**"
+                 f"\n\n Your Astronomy/Science/Mysteries/Mind/Psychology/"
+                 f"\n\n Korea/Japan and etc.. Groups.I can add members to your" f"\n\ngroup (I will globally broadcast your link)"
+                 f"\n\n **Just Send invite link to @ParkPMBot**"
+                 f"\n\n **If You Send,I will Broadcast**"
+                 f"\n\n Go And Check @TheAuroraProject For More Info"
+                 f"\n\n Good Luck!"
                 
-                 f"\n\nOwners,Devs,Dragons "
-                 f"\n\nThe Aurora Project"
-                 f"\n\nTelegram.",
+                 f"\n\n Owners,Devs,Dragons "
+                 f"\n\n The Aurora Project"
+                 f"\n\n Telegram.",
 
             parse_mode=ParseMode.MARKDOWN,
 
