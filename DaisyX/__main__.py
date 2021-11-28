@@ -63,7 +63,7 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-ʜᴏʟᴀ,ɪ'ᴍ ᴀᴜʀᴏʀᴀ[🚀](https://telegra.ph/file/24f53325c73f0ae72223c.jpg)
+ʜᴏʟᴀ,ɪ'ᴍ ᴀᴜʀᴏʀᴀ[✅](https://telegra.ph/file/f9acbedeffa9733f5029b.jpg)
 ɪ'ᴍ ᴀɴ ᴀꜱᴛʀᴏɴᴏᴍʏ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴘᴏᴡᴇʀꜰᴜʟ ᴛᴏᴏʟꜱ
 ✪ Make sure you read *INFO* Section Below ✪ 
 """
@@ -103,7 +103,7 @@ InlineKeyboardButton(text="🔭ᴀɴᴅʀᴏᴍᴇᴅᴀ ᴛᴇʟᴇꜱᴄᴏᴘ
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [🌙](https://telegra.ph/file/2618807cd20a13ee84287.jpg)
+*Main Commands :* [🌙](https://telegra.ph/file/eb03a3fb1026c8b15bf5d.jpg)
 ◉ /start: Starts me! You've probably already used this.
 ◉ /mhelp: Click this,To check music bot!
 ◉ /vhelp: You can view my video bot.
@@ -316,7 +316,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*⚊❮❮❮❮ ｢  Help  for  {}  module 」❯❯❯❯⚊*\n".format(
+                "*⚊❮❮❮❮ ｢  Help  for  {}  module[⚙️](https://telegra.ph/file/7bc423d5941c7eb1970ea.jpg)」❯❯❯❯⚊*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -383,7 +383,7 @@ def DaisyX_about_callback(update, context):
 
         query.message.edit_text(
 
-            text=f"Welcome to **Tԋҽ Aυɾσɾα Pɾσʝҽƈƚ**[ 🌙](https://telegra.ph/file/2d1e74b6cdf64027933c7.jpg)"
+            text=f"Welcome to **Tԋҽ Aυɾσɾα Pɾσʝҽƈƚ**[🤗](https://telegra.ph/file/d1cc4ef9d483e333d7554.jpg)"
                  f"\n\n This Project Made For @Andromedatelescope"
                  f"\n\n We created 3 Bots to manage your Astronomy And Science" 
                  f"\n\n Groups.You Can Add it to your group."
@@ -467,7 +467,7 @@ def DaisyX_about_callback(update, context):
 
     elif query.data == "aboutmanu_howto":
         query.message.edit_text(
-            text=f"* ｢ BASIC HELP 」*"
+            text=f"* ｢ BASIC HELP[⚙️](https://telegra.ph/file/c9f69b5c30bfd24c6554c.jpg) 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
             f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [SL_Tech_World](https://t.me/SL_Tech_Worldchat).\n"
             f"",
@@ -586,7 +586,7 @@ def get_help(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="⚽Help",
+                                text="⚙️Help",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
