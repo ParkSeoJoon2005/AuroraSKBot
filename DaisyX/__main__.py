@@ -95,7 +95,7 @@ InlineKeyboardButton(text="🔭ᴀɴᴅʀᴏᴍᴇᴅᴀ ᴛᴇʟᴇꜱᴄᴏᴘ
 
     [
 
-        InlineKeyboardButton(text="❓ᴄᴏᴍᴍᴀɴᴅꜱ ʜᴇʟᴘ", callback_data="help_back"),
+        InlineKeyboardButton(text="❓ᴄᴏᴍᴍᴀɴᴅꜱ ʜᴇʟᴘ", callback_data="helpmainmenu"),
 
     ],
 
@@ -304,6 +304,64 @@ def error_callback(update: Update, context: CallbackContext):
         print(error)
         # handle all other telegram related errors
 
+
+
+def DaisyX_about_callback(update, context):
+
+    query = update.callback_query
+
+    if query.data == "helpmainmenu":
+
+        query.message.edit_text(
+
+            text=f"Main Help Menu,Beta,All ",
+
+            parse_mode=ParseMode.MARKDOWN,
+
+            disable_web_page_preview=False,
+
+            reply_markup=InlineKeyboardMarkup(
+
+                [
+[
+InlineKeyboardButton(text="බෙටා මෙනු", callback_data="aboutmanu_back"),
+InlineKeyboardButton(text="ඕල් මෙනූ", callback_data="help_back"),
+],
+    [
+InlineKeyboardButton(text="🔙Back", callback_data="aboutmanu_back"),
+],
+
+                ]
+
+            ),       
+            
+            elif query.data == "aboutmanu_credit":
+
+474
+
+        query.message.edit_text(
+
+475
+
+            text=f"බෙටා හෙල්ප් මෙනුව",
+
+            parse_mode=ParseMode.MARKDOWN,
+
+            disable_web_page_preview=false,
+
+reply_markup=InlineKeyboardMarkup(
+
+                [
+
+    [
+
+InlineKeyboardButton(text="🔙Back", callback_data="helpmainmenu"),
+
+],
+
+                ]
+
+            ),
 
 @run_async
 def help_button(update, context):
